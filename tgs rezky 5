@@ -1,0 +1,10 @@
+<?php
+$nilai_informatika = 50;
+$nilai_bahasa = 55;
+
+if ($nilai_informatika <= 50 && $nilai_bahasa >=70) {
+    echo "selamat! kamu boleh tidur pekan ini!"; 
+} else{
+    echo "yah... harus belajar lagi ya, lain kali bisa!";
+}
+?>
