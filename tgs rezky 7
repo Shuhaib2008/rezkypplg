@@ -1,0 +1,11 @@
+<?php
+$keadaanowi_sehat = true;
+$motorowi_nyala = false;
+
+// Kondisi Bukhori tidak berangkat karana mogok
+
+if ($keadaanowi_sehat && $motorowi_nyala) {
+    echo "Bukhori berangkat.";
+} elseif ($keadaanowi_sehat && !$motorowi_nyala) {
+    echo "Motor mogok, Bukhori tidak berangkat.";   
+}
