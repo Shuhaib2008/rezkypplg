@@ -1,0 +1,9 @@
+<?php
+<?php
+$azzam_puasa = false; // (mokel)
+
+if (! $azzam_puasa) {
+    echo "Azzam makan ayam geprek di siang hari.";
+} else {
+    echo "Azzam berbuka dengan ayam geprek.";
+}
