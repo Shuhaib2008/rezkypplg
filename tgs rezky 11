@@ -1,0 +1,8 @@
+<?php
+$dho = 1;
+
+do {
+    echo "idhooo: $dho <br>";
+    $dho++;
+} while ($dho <= 5);
+?>
