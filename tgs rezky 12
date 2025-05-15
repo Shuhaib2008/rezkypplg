@@ -1,0 +1,6 @@
+<?php
+$daftar =["Aerostreet","Compass","Ortus","Specs"];
+echo "sepatu lokal</br>";
+foreach ($daftar as $daftarBelanja){
+    echo "* " .$daftarBelanja ."</br>";
+}
